@@ -49,3 +49,56 @@ The script processes the file as following
 - Modify `input.txt` optionally according to your needs
 - Open command terminal
 - Run `tclsh script.tcl`
+
+## Output example
+
+This is the output of the given `input.txt` file example
+
+```
+Line 1:
+1.5
+- length: 1
+
+Line 2:
+line 1
+- length: 6
+
+Line 3:
+INVALID LINE
+
+Line 4:
+6.5
+- length: 1
+
+Line 5:
+2.5
+- length: 1
+
+Line 6:
+INVALID LINE
+
+Line 7:
+#!@$^:{}
+- length: 8
+
+Line 8:
+INVALID LINE
+
+Line 9:
+27.6
+- length: 4
+
+Line 10:
+line3
+- length: 5
+
+- Sum of first two numbers: 5
+- Concatenation of first three strings: line 1 #!@$^:{} 27.6
+- Max number value: 5
+- Minimum string length: 1
+- Number of lines:
+  - String: 4
+  - Odd number: 2
+  - Even number: 1
+  - Invalid: 3
+```
