@@ -1,7 +1,5 @@
 # TCL File processor script demo
 
-## About
-
 A demo file reader project to process text files line by line, utilizing a variety of TCL language syntax techniques
 
 ## Rules
